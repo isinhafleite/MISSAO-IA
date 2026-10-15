@@ -1,28 +1,43 @@
 const questions = [
     {
-        question: "1. Qual é a capital do Brasil?",
-        answers: ["Brasília", "São Paulo"],
-        correct: 0
+        question: "Você já sabe qual faculdade quer cursar?",
+        answers: [
+            "Sim, já escolhi meu curso.",
+            "Não, ainda estou em dúvida."
+        ],
+        correct: null
     },
     {
-        question: "2. Qual planeta é conhecido como Planeta Vermelho?",
-        answers: ["Vênus", "Marte"],
-        correct: 1
+        question: "O que mais influencia sua escolha de carreira?",
+        answers: [
+            "Fazer algo de que gosto.",
+            "Ter um bom salário e estabilidade financeira."
+        ],
+        correct: null
     },
     {
-        question: "3. Quanto é 5 + 5?",
-        answers: ["10", "15"],
-        correct: 0
+        question: "Você estudaria longe de casa para seguir seu sonho?",
+        answers: [
+            "Sim, iria atrás da minha oportunidade.",
+            "Não, prefiro estudar perto de casa."
+        ],
+        correct: null
     },
     {
-        question: "4. Qual destes animais é um mamífero?",
-        answers: ["Tubarão", "Golfinho"],
-        correct: 1
+        question: "O que você prefere para seu futuro profissional?",
+        answers: [
+            "Trabalhar em uma empresa.",
+            "Ter meu próprio negócio."
+        ],
+        correct: null
     },
     {
-        question: "5. Quantos dias tem uma semana?",
-        answers: ["7 dias", "10 dias"],
-        correct: 0
+        question: "Como você escolheria sua carreira hoje?",
+        answers: [
+            "Seguir a carreira dos meus sonhos.",
+            "Escolher uma carreira com mais oportunidades."
+        ],
+        correct: null
     }
 ];
 
