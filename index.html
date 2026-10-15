@@ -1,20 +1,43 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixinha de Perguntas</title>
     <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="caixa-principal">
-        <h1>Você decide o futuro da IA</h1>
-        <div class="caixa-perguntas"></div>
-        <div class="caixa-alternativas"></div>
-        <div class="caixa-resultado">
-            <p class="texto-resultado"></p>
+
+    <main class="quiz-container">
+        <h1>Caixinha de Perguntas</h1>
+        <p class="subtitle">Responda às 5 perguntas!</p>
+
+        <div class="progress-container">
+            <div id="progress-bar"></div>
         </div>
-    </div>
-    <script src="script.js"></script>
+
+        <p id="question-number">Pergunta 1 de 5</p>
+
+        <section id="quiz">
+            <h2 id="question">Carregando pergunta...</h2>
+
+            <div id="answers" class="answers"></div>
+
+            <p id="feedback" aria-live="polite"></p>
+
+            <button id="next-button" disabled>
+                Próxima pergunta
+            </button>
+        </section>
+
+        <section id="result" hidden>
+            <h2>Você terminou!</h2>
+            <p id="score"></p>
+            <button id="restart-button">Jogar novamente</button>
+        </section>
+    </main>
+
 </body>
 </html>
